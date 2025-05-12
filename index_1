@@ -1,5 +1,158 @@
 <!DOCTYPE html>
+<html lang="en"><!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebong Akpabio – Generative AI for Work &amp; Research Portfolio</title>
+  <style>
+    /* ——— Base ——— */
+    :root {
+      --bg: #f9fafb;          /* light gray background */
+      --fg: #111827;          /* near-black foreground */
+      --accent: #2563eb;      /* blue accent */
+      --card: #ffffff;        /* white cards */
+      --radius: 1rem;         /* large rounded corners */
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: var(--fg);
+      background: var(--bg);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* ——— Layout ——— */
+    header {
+      background: var(--card);
+      box-shadow: 0 2px 4px rgba(0,0,0,.05);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .container {
+      max-width: 960px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--fg);
+      font-weight: 500;
+      transition: color .2s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    section {
+      margin-top: 3rem;
+      background: var(--card);
+      padding: 2rem;
+      border-radius: var(--radius);
+      box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.75rem;
+      border-bottom: 3px solid var(--accent);
+      display: inline-block;
+      padding-bottom: 0.25rem;
+    }
+
+    /* ——— Submissions list ——— */
+    ul.weeks {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0 0;
+    }
+
+    ul.weeks li {
+      margin: 0.75rem 0;
+    }
+
+    ul.weeks a {
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      margin: 4rem 0 2rem 0;
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+
+    /* ——— Profile image ——— */
+    .profile {
+      max-width: 150px;
+      border-radius: 50%;
+      float: right;
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- ——— Site Header ——— -->
+  <header>
+    <div class="container">
+      <nav>
+        <h1>Dr. Ebong Akpabio</h1>
+        <div class="links">
+          <a href="#about-me">About Me</a>
+          <a href="#about-course">About the Course</a>
+          <a href="#weekly-submissions">Weekly Submissions</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ——— About Me ——— -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <img src="https://raw.githubusercontent.com/EbongAkpabio/generative-ai-workshop1/main/WIN_20190809_15_40_43_Pro.jpg" alt="Dr. Ebong Akpabio headshot" class="profile">
+      <p>
+        Dr. Ebong Effiong Akpabio is a Namibia-based medical doctor and independent public-health
+        consultant with more than 25 years of leadership experience across clinical care, programme
+        management and global health projects. His work spans monitoring &amp; evaluation for Global Fund
+        malaria initiatives, community health education, and capacity-building for sustainable
+        healthcare delivery. Holding an MSc in Epidemiology from the London School of Hygiene &amp;
+        Tropical Medicine, an MBA, and a PhD in Public Health, he is now leveraging generative AI to
+        accelerate evidence-based decision-making and research.
+      </p>
+    </section>
+
+    <!-- ——— About the Course ——— -->
+    <section id="about-course">
+      <h2>About the Course</h2>
+      <p><strong>LIVE ONLINE CERTIFICATION</strong><br>
+      <strong>Generative AI for Work &amp; Research Productivity</strong>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
